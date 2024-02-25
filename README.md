@@ -1,6 +1,6 @@
 # Project Name: Twimba
 
-![Website Screenshot](images/twimba-screenshot.png)
+<img src="images/twimba-screenshot.png" alt="Website Screenshot" width="400">
 
 ## Description
 
