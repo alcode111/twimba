@@ -5,8 +5,10 @@ document.addEventListener('click', function(e) {
         handleLikeClick(e.target.dataset.like)
     } else if (e.target.dataset.retweet) {
         handleRetweetClick(e.target.dataset.retweet)
-    } else if(e.target.dataset.reply) {
+    } else if (e.target.dataset.reply) {
         handleReplyClick(e.target.dataset.reply)
+    } else if (e.target.id === 'tweet-btn') {
+        handleTweetBtnClick()
     }
 })
 
@@ -34,6 +36,10 @@ function handleRetweetClick(tweetId) {
 
 function handleReplyClick(replyId) {
     document.getElementById(`replies-${replyId}`).classList.toggle('hidden')
+}
+
+function handleTweetBtnClick() {
+    
 }
 
 function getFeedHtml() {
