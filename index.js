@@ -1,5 +1,15 @@
 import { tweetsData } from './data.js'
 
+document.addEventListener('click', function(e) {
+    if (e.target.dataset.like) {
+        handleLikeClick(e.target.dataset.like)
+    }
+})
+
+function handleLikeClick(tweetId) {
+    console.log(tweetId)
+}
+
 function getFeedHtml() {
     let feedHtml = ''
 
