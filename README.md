@@ -13,6 +13,12 @@ In this project, we will replicate one of the most famous websites: Twitter (alt
 - **Retweeting**: Users can retweet tweets.
 - **Replies**: Users can view replies to tweets.
 
+## Stretch Goals
+
+- **Reply**: Implement ability to reply to a specific tweet.
+- **Storage**: Save tweets, likes and retweets to localStorage.
+- **Delete**: Add the possibility to delete a tweet.
+
 ## Technologies Used
 
 - HTML
